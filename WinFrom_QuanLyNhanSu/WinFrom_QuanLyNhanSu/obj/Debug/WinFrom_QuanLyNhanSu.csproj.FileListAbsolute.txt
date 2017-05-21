@@ -16,3 +16,6 @@ C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFro
 C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe.config
 C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
 C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
+E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe.config
+E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
+E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
