@@ -42,7 +42,7 @@ namespace WinFrom_QuanLyNhanSu
         {
             if (checkObject())
             {
-                if (txtUsename.Text.Equals("admin") && txtPassword.Text.Equals("tmp"))
+                if (txtUsename.Text.Equals("a") && txtPassword.Text.Equals("a"))
                 {
                     this.Hide();
                 }
