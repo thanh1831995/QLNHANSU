@@ -16,10 +16,10 @@ namespace WinFrom_QuanLyNhanSu
         public FormQLNhanVien()
         {
             InitializeComponent();
-            con = new SqlConnection("server = 8470P-PC\\CNTTSQL;database = QLNhanSu;integrated security = SSPI");
+            con = new SqlConnection("Data Source=QUYETTHANG;Initial Catalog=QuanLyNhanSu;Integrated Security=True");
         }
         SqlConnection con;
-        string CurrID;
+      
         void Hienthi()
         {
             con.Open();
@@ -43,7 +43,6 @@ namespace WinFrom_QuanLyNhanSu
         private void dgvlstNV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtID.Text = dgvlstNV.CurrentRow.Cells[0].Value.ToString();
-            CurrID = txtID.Text;
             txtHoTen.Text = dgvlstNV.CurrentRow.Cells[1].Value.ToString();
             dtpNgaySinh.Text = ((DateTime)dgvlstNV.CurrentRow.Cells[2].Value).ToString("MM/dd/yyyy");
             txtQueQuan.Text = dgvlstNV.CurrentRow.Cells[3].Value.ToString();
@@ -57,6 +56,43 @@ namespace WinFrom_QuanLyNhanSu
         }
 
         private void FormQLNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand add = new SqlCommand("themnv", con);
+            add.Parameters.Add(new SqlParameter("@MaNhanVien", txtID.Text));
+            add.Parameters.Add(new SqlParameter("@TenNhanVien", txtHoTen.Text));
+            add.Parameters.Add(new SqlParameter("@NgaySinh", dtpNgaySinh.Value));
+            add.Parameters.Add(new SqlParameter("@Luong", txtLuong.Text));
+            add.Parameters.Add(new SqlParameter("@QueQuan", txtLuong.Text));
+            add.Parameters.Add(new SqlParameter("@MaPhong", txtMaPhong.Text));
+            add.CommandType = CommandType.StoredProcedure;
+            try
+            {
+
+                add.ExecuteNonQuery();
+                MessageBox.Show("Thêm mới thành công");
+            }
+            catch
+            {
+                MessageBox.Show("Nhập lỗi ");
+
+            }
+
+            con.Close();
+            Hienthi();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

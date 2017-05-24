@@ -29,5 +29,11 @@ namespace WinFrom_QuanLyNhanSu
             frm.ShowDialog();
         }
 
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            frmFind f = new frmFind();
+            f.ShowDialog();
+        }
+
     }
 }

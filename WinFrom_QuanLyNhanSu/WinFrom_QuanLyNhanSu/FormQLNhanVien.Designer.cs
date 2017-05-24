@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.grbThongTinNV = new System.Windows.Forms.GroupBox();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.txtLuong = new System.Windows.Forms.TextBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.txtMaPhong = new System.Windows.Forms.TextBox();
             this.txtQueQuan = new System.Windows.Forms.TextBox();
@@ -49,6 +47,8 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.btnXem = new System.Windows.Forms.Button();
+            this.txtLuong = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.grbThongTinNV.SuspendLayout();
             this.grbDSNV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvlstNV)).BeginInit();
@@ -74,25 +74,6 @@
             this.grbThongTinNV.TabIndex = 0;
             this.grbThongTinNV.TabStop = false;
             this.grbThongTinNV.Text = "Thông Tin Chi tiết";
-            // 
-            // txtID
-            // 
-            this.txtID.BackColor = System.Drawing.SystemColors.Control;
-            this.txtID.Location = new System.Drawing.Point(114, 37);
-            this.txtID.Multiline = true;
-            this.txtID.Name = "txtID";
-            this.txtID.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(76, 27);
-            this.txtID.TabIndex = 13;
-            // 
-            // txtLuong
-            // 
-            this.txtLuong.Location = new System.Drawing.Point(501, 82);
-            this.txtLuong.Multiline = true;
-            this.txtLuong.Name = "txtLuong";
-            this.txtLuong.Size = new System.Drawing.Size(237, 28);
-            this.txtLuong.TabIndex = 3;
-            this.txtLuong.UseWaitCursor = true;
             // 
             // dtpNgaySinh
             // 
@@ -214,6 +195,7 @@
             this.btnThem.TabIndex = 2;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -270,6 +252,24 @@
             this.btnXem.UseVisualStyleBackColor = false;
             this.btnXem.Click += new System.EventHandler(this.btnXem_Click);
             // 
+            // txtLuong
+            // 
+            this.txtLuong.Location = new System.Drawing.Point(501, 82);
+            this.txtLuong.Multiline = true;
+            this.txtLuong.Name = "txtLuong";
+            this.txtLuong.Size = new System.Drawing.Size(237, 28);
+            this.txtLuong.TabIndex = 3;
+            this.txtLuong.UseWaitCursor = true;
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(111, 37);
+            this.txtID.Multiline = true;
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(237, 28);
+            this.txtID.TabIndex = 4;
+            this.txtID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // FormQLNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -310,14 +310,14 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtLuong;
         private System.Windows.Forms.TextBox txtMaPhong;
         private System.Windows.Forms.TextBox txtQueQuan;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Button btnXem;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtLuong;
     }
 }
