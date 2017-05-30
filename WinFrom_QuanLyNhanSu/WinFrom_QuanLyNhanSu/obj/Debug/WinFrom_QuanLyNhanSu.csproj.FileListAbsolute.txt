@@ -21,24 +21,6 @@ E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_Q
 E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
 E:\GITHUP\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
 =======
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe.config
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.pdb
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.csprojResolveAssemblyReference.cache
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.FormLogin.resources
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.Properties.Resources.resources
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.csproj.GenerateResource.Cache
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
-c:\users\8470p\documents\visual studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.FormMain.resources
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.FormQLNhanVien.resources
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\EntityFramework.dll
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\EntityFramework.xml
-C:\Users\8470p\Documents\Visual Studio 2015\Projects\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe.config
-C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
-C:\Users\8470p\Desktop\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
 C:\Users\thang\Documents\GitHub\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\bin\Debug\WinFrom_QuanLyNhanSu.exe.config
 C:\Users\thang\Documents\GitHub\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.exe
 C:\Users\thang\Documents\GitHub\QLNHANSU\WinFrom_QuanLyNhanSu\WinFrom_QuanLyNhanSu\obj\Debug\WinFrom_QuanLyNhanSu.pdb
